@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arslan Guvanjow | Beginner Web Developer</title>
+  <link rel="stylesheet" href="owngrid.css" />
+</head>
+<body id="top">
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Arslan <span>Guvanjow</span></a>
+
+      <a
+        class="btn btn-outline"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=arslanguwanjow208@gmail.com&su=Hello%20Arslan&body=Hi%20Arslan,%20I%20wanted%20to%20say%20hello!"
+        target="_blank"
+      >
+        Say Hello
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-tag">Beginner Web Developer</p>
+          <h1>Hello, I'm Arslan 👋</h1>
+          <p class="hero-subtitle">
+            I'm learning HTML, CSS, and web development step by step. My goal is to
+            become a front-end developer in 6 months.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn">See My Projects</a>
+            <a href="#about" class="btn btn-ghost">About Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photos">
+          <div class="photo-card main-photo">
+            <img src="your-photo.jpg" alt="Arslan photo 1" />
+          </div>
+          <div class="photo-card secondary-photo">
+            <img src="your-photo2.jpg" alt="Arslan photo 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I am learning HTML, CSS and improving my skills every day. My dream is to
+            become a strong front-end developer and build beautiful, responsive
+            websites.
+          </p>
+        </div>
+        <div>
+          <h2>My Story</h2>
+          <p>
+            This website is part of my journey from beginner to developer. Every line
+            of code here is written by me and improved step by step.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <p>Some small projects I built while learning.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="card-link">View project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="card-link">View project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="card-link">View project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-inner">
+        <div>
+          <h2>Contact</h2>
+          <p>If you want to say hello or give me advice, you can contact me here:</p>
+        </div>
+        <div class="contact-info">
+          <p>Email:</p>
+          <a href="mailto:arslanguwanjow208@gmail.com">
+            arslanguwanjow208@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>These photos are mine 🖼️</p>
+      <p>© <span id="year"></span> Arslan Guvanjow. Learning step by step.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Just to always show current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
